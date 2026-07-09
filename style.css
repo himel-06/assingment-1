@@ -44,3 +44,37 @@ ul li a{
     font-size: 14px;
     font-weight: bold;
 }
+.hero{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("./assets/banner.jpg");
+    background-size: cover;
+    background-position: center;
+
+    height: 600px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    text-align: center;
+    color: white;
+}
+.hero h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.hero p{
+    width: 700px;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.button{
+    background-color: #2563eb;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+}
