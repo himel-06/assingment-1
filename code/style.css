@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 80px;
+    background: white;
+}
+
+.logo img{
+    height: 40px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+ul li{
+    margin: 0 15px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+.button{
+    text-decoration: none;
+    background: #2563eb;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+}
