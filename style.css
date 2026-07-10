@@ -78,3 +78,53 @@ ul li a{
     padding: 12px 25px;
     border-radius: 6px;
 }
+
+.sp{
+    width: 90%;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.sp h1{
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 40px;
+}
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card{
+    width: 48%;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    margin-bottom: 25px;
+}
+
+.card img{
+    width: 100%;
+    height: 280px;
+}
+
+.info{
+    padding: 15px;
+}
+
+.type{
+    color: blue;
+    font-size: 11px;
+    margin-bottom: 8px;
+}
+
+.info h3{
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+
+.job{
+    color: gray;
+    font-size: 13px;
+}
